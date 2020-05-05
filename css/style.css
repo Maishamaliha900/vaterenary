@@ -1,0 +1,807 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: Melon Slices;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h3,h4,h5,h6{
+	font-family: House Slant;
+}
+h2{
+	font-family: Comic Sans MS;
+}
+a, a:hover{
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+/**Header code start**/
+.header{
+	width:100%;
+	padding:0px 0px;
+	text-align: center;
+}
+.header .navbar-nav{
+	margin-left: 25px;
+}
+.header .bg-light{
+	background-color: #daac00!important;
+	padding: 20px 0px;
+}
+.header .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+	color: #000;
+	transition: 1s;
+}
+.header .btn{
+	font-size: 22px;	
+	text-align: left;
+	box-shadow: 2px 2px 6px
+}
+
+
+/**Header code end**/
+
+
+
+/**banner code start**/
+
+.banner{
+	width:100%;
+	padding:80px 0px;
+	background: #fcc302;
+}
+.banner .part1{
+	width:100%;
+}
+.banner .part1 h1 {
+    font-size: 56px;
+    color: #fff;
+    text-align: left;
+    line-height: 75px;
+    margin-bottom: 30px;
+    margin-top: 140px;
+}
+.banner .part1 p{
+	font-size: 20px;
+	color:#fff;
+	text-align: left;
+	line-height: 30px;
+}
+.banner .part1 .btn-inner{
+	width:100%;
+	margin-top:20px;
+}
+.banner .part1 .btn-primary{
+	padding: 10px 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#fff;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+}
+.banner .part1 .btn-light{
+	padding: 10px 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: transparent;
+	color:#fff;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+}
+.banner .part1 .btn-primary:hover{
+	background: transparent;
+	color:#12a2b2;
+	transition: 1s;
+}
+.banner .part1 .btn-light:hover{
+	background: #12a2b2;
+	color:#fff;
+	transition: 1s;
+}
+/**banner code end**/
+
+/**lover code start**/
+.lover{
+	width:100%;
+	padding:80px 0px;
+}
+.lover .part1 h1{
+	font-size: 60px;
+    color: #000;
+    text-align: left;
+    line-height: 75px;
+    margin-bottom: 30px;
+    margin-top: 140px;
+}
+.lover .part1 p{
+	font-size: 20px;
+	color:#000;
+	text-align: left;
+	line-height: 30px;
+}
+.lover .part1 .btn-warning{
+	padding: 10px 35px;
+	margin-top: 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#fff;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+}
+.lover .part1 .btn-warning:hover{
+	background: transparent;
+	color:#000;
+	border:1px solid #fcc302;
+	transition: 1s;
+} 
+
+.lover .part2 .image-box {
+    width: 300px;
+    height: 250px;
+    background: #FCC302;
+    margin-top: -200px;
+    margin-left: 0px;
+}
+.lover .part2 img {
+    width: 80%;
+    margin-left: 50px;
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 28px -5px #ddd;
+}
+.lover .social-icons{
+	width:100%;
+	text-align: center;
+	margin-top: -275px;
+}
+.lover .social-icons a i{
+	font-size: 30px;
+	color:#fcc302;
+	text-align: center;
+	background: #fff;
+	border:1px solid #fff;
+	width:60px;
+	height:60px;
+	line-height: 60px;
+	border-radius: 50px;
+}
+.lover .social-icons a i:hover{
+	background: transparent;
+	color:#fff;
+	transition: 1s;
+}
+
+/**lover code end**/
+
+/**title-section code start**/
+
+
+.title-section{
+	width:100%;
+	padding: 80px 0px;
+	background: #fcc302;
+}
+.title-section h1{
+	font-size: 60px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.title-section p{
+	font-size: 22px;
+	color:#fff;
+	line-height: 26px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center;
+}    
+.title-section h2{
+	font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 40px;
+}    
+
+
+/**title-section code end**/
+
+/**service-section code start**/
+
+.service-section{
+	width:100%;
+	padding:80px 0px;
+}
+.service-section h1{
+	font-size: 60px;
+    color: #000;
+    text-align: right;
+    line-height: 75px;
+    margin-bottom: 30px;
+    margin-top: 140px;
+}
+.service-section p{
+	font-size: 20px;
+	color:#000;
+	text-align: right;
+	line-height: 30px;
+}
+.service-section .service-part2 .btn-warning{
+	padding: 10px 35px;
+	margin-top: 16px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#fff;
+	margin-left: 355px;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+}
+.service-section .service-part2 .btn-warning:hover{
+	background: transparent;
+	color:#000;
+	border:1px solid #fcc302;
+	transition: 1s;
+} 
+
+.service-section .service-part1 .image-box {
+    width: 300px;
+    height: 250px;
+    background: #FCC302;
+    margin-top: -190px;
+    margin-left: 240px;
+}
+.service-section .service-part1 img {
+    width: 80%;
+    margin-left: 50px;
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 28px -5px #ddd;
+}
+.service-section .social-icons{
+	width:100%;
+	text-align: center;
+	margin-top: -295px;
+}
+.service-section .social-icons a i{
+	font-size: 30px;
+	color:#fcc302;
+	text-align: center;
+	background: #fff;
+	border:1px solid #fff;
+	width:60px;
+	height:60px;
+	line-height: 60px;
+	border-radius: 50px;
+}
+.service-section .social-icons a i:hover{
+	background: transparent;
+	color:#fff;
+	transition: 1s;
+}
+
+/**service-section code end**/
+
+/**price code start**/
+
+.price{
+	width:100%;
+	padding:80px 0px;
+	text-align: center;
+	background: #fcc302;
+}
+.price h1{
+	font-size: 60px;
+    color: #fff;
+    margin-bottom: 30px;   
+}
+.price p{
+	font-size: 20px;
+	color:#fff;
+	margin-bottom: 40px;	
+}
+.price h2{
+	font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.price .btn-primary{
+	padding: 10px 20px;
+	margin-top: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#fff;
+	letter-spacing: 2px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+}
+.price .btn-primary:hover{
+	background: transparent;
+	color:#fff;
+	transition: 1s;
+}
+/**price code end**/
+
+/**team code start**/
+
+.team{
+	width:100%;
+	padding: 80px 0px;
+	text-align: center;	
+}
+.team h1{
+	font-size: 60px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.team p{
+	font-size: 20px;
+	color:#000;
+	margin-bottom: 30px;
+}
+.team h2{
+	font-size: 40px;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.team .social-icons{
+	width:100%;
+	text-align: center;
+	margin: 0px;
+}
+.team .social-icons a i{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	background: #fcc302;
+	border:1px solid #fff;
+	width:40px;
+	height:40px;
+	line-height: 40px;
+	border-radius: 50px;
+	margin:10px;
+}
+.team .social-icons a i:hover{
+	background: transparent;
+	color:#fcc302;
+	transition: 1s;
+}
+
+/**team code end**/
+
+/**highlight code start**/
+
+.highlight{
+	width:100%;
+	padding: 60px 0px;
+	text-align: center;
+	background: url(../img/Image030.png)center top no-repeat;
+	background-size: cover;
+}
+.highlight .social-icons{
+	width:100%;
+	text-align: center;
+	margin:10px;
+}
+.highlight .social-icons a i{
+	font-size: 140px;
+	color:#fff;	
+	margin-top: 40px;
+}
+.highlight .social-icons a i:hover{
+	background: transparent;
+	color:#000;
+	transition: 1s;
+}
+.highlight h4{
+	font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.highlight h4:hover{
+	background: transparent;
+	color:#000;
+	transition: 1s;
+}
+.highlight p{
+	font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.highlight p:hover{
+	background: transparent;
+	color:#000;
+	transition: 1s;
+}
+
+/**highlight code end**/
+
+/**.post code start**/
+
+.post{
+	width:100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.post h1{
+	font-size: 60px;
+    color: #000;
+    margin-bottom: 30px;  
+}
+.post p{
+	font-size: 25px;
+    color: #000;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.post .card-body h4{
+	font-size: 28px;
+    color: #000;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.post .card-body h5{
+	font-size: 18px;
+    color: #12a2b2;
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.post .card-body p{
+	font-size: 25px;
+    color: #000;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.post .card-body h3{
+	font-size: 18px;
+    color: #12a2b2;
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.post .card-body h3:hover{
+	background: transparent;
+	color:#000;
+	transition: 1s;
+}
+/**post code end**/
+
+/**footer code start**/
+
+.footer{
+	width:100%;
+	padding: 70px 0px;
+	background: #343434;
+}
+.footer .footer-part1 h3{
+	font-size: 28px;
+    color: #fff;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.footer .footer-part1 ul{
+	display: block;
+	margin:0px;
+}
+
+.footer .footer-part1 ul li{
+	list-style: none;
+	margin-bottom: 10px;
+	
+}
+.footer .footer-part1 ul li a{
+	font-size: 20px;
+	color:#fff;
+}
+.footer .footer-part1 ul li a:hover{
+	color:#fcc302;
+	transition: 1s;
+
+}
+.footer .footer-part2 h3{
+	font-size: 28px;
+    color: #fff;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.footer .footer-part2 ul{
+	display: block;
+	margin:0px;
+}
+
+.footer .footer-part2 ul li{
+	list-style: none;
+	margin-bottom: 10px;
+	
+}
+.footer .footer-part2 ul li a{
+	font-size: 20px;
+	color:#fff;
+}
+.footer .footer-part2 ul li a:hover{
+	color:#fcc302;
+	transition: 1s;
+
+}
+.footer .footer-part3 h3{
+	font-size: 28px;
+    color: #fff;
+    text-align: right;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.footer .footer-part3 p{
+	font-size: 25px;
+    color: #fff;
+    text-align: right;
+    line-height: 30px; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.footer .search{
+	margin-left: 42px;
+	margin-top: -10px;
+}
+
+.footer .footer-part3 .btn-warning{
+	font-size: 22px;
+	text-align: left;
+
+}
+.footer .footer-part3 .btn-info{
+	font-size: 22px;
+}
+.footer .footer-part3 .btn-warning:hover{
+	background: transparent;
+	border:1px solid #fff;
+	transition: 1s;
+}
+.footer .footer-part3 .btn-info:hover{
+	background: transparent;
+	border:1px solid #fff;
+	transition: 1s;
+}
+.footer .social-icons{
+	width:100%;
+	text-align: center;
+	margin-left:50px;
+	margin-top: 15px;
+}
+.footer .social-icons a i{
+	font-size: 20px;
+	color:#000;
+	text-align: center;
+	background: #fff;
+	border:1px solid #fff;
+	width:40px;
+	height:40px;
+	line-height: 40px;
+	border-radius: 50px;
+	margin:10px;
+}
+.footer .social-icons a i:hover{
+	background: transparent;
+	color:#fcc302;
+	transition: 1s;
+}
+/**footer code end**/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+  /**CSS CODE START**/
+
+	  .banner .part1 h1 {
+    font-size: 30px;    
+    line-height: 47px;
+    margin-top: -50px;
+}
+	.lover .part1 h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: -27px;
+}
+	.title-section p {
+    font-size: 16px;
+    margin-top: -16px;   
+}
+	.title-section h2 {
+    font-size: 36px;    
+}
+.title-section h1{
+	margin-bottom: 30px;
+}     
+	.service-section h1 {
+    font-size: 30px;
+    line-height: 53px;
+    margin-top: 230px;
+}
+	.service-section .service-part1 .image-box {
+    margin-top: -213px;
+    margin-left: 56px;
+}
+.service-section .social-icons a i {
+    margin-top: 90px;
+}
+.lover .social-icons a i {
+    margin-top: 76px;
+}
+	.service-section .service-part2 .btn-warning {   
+    margin-left: 80px;   
+}
+	.price p {
+    font-size: 18px;
+}
+	.price .btn-primary {
+    padding: 5px 15px;    
+}
+	.team h1 {
+    font-size: 40px;
+}
+	.team p {
+    font-size: 16px;
+}
+	.team h2 {
+    font-size: 32px;    
+}
+	.post h1 {
+    font-size: 48px;
+    
+}
+	.post p {
+    font-size: 16px;  
+    line-height: 27px;    
+}
+.footer .footer-part3 .form-inline {
+    margin-left: -20px;
+}
+  /**CSS CODE END**/
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 	.banner .part1 h1 {
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    margin-top: -55px;
+}
+	.lover .part1 h1 {
+    font-size: 47px;
+    margin-top: -49px;
+}
+	.service-section h1 {
+    font-size: 48px;       
+    margin-top: 51px;
+}
+	.service-section .service-part2 .btn-warning {    
+    margin-left: 148px;
+}
+.mr-sm-2, .mx-sm-2 {
+    margin-right: -0.5rem!important;
+}
+
+
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  	.banner .part1 h1 {
+    font-size: 42px;
+}
+	.lover .part1 h1 {
+    font-size: 39px;    
+    line-height: 56px;    
+    margin-top: 99px;
+}
+	.service-section h1 {
+    font-size: 39px;    
+}
+	.service-section .service-part2 .btn-warning {
+    margin-left: 145px;
+}
+	.team .social-icons a i {    
+    margin: 5px;
+}
+	.post .card-body h4 {
+    font-size: 21px;    
+}
+
+	.footer .social-icons a i {  
+    margin: 4px;
+}
+.post .card-body h4 {
+    font-size: 14px;  
+}
+.footer .search {
+    margin-left: -75px;
+}
+.mr-sm-2, .mx-sm-2 {
+    margin-right: -0.5rem!important;
+}
+.lover .social-icons a i {
+    margin-top: 75px;
+}
+.service-section .service-part1 .image-box {
+    margin-top: -193px;
+    margin-left: 70px;
+}
+.service-section .social-icons a i {
+    margin-top: 85px;
+}
+
+
+  
+}
+/**plugin code goes here**/
+
+/**sticup code start**/
+
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #daac00;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width:100%;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:block;
+}
+
